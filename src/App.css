@@ -1,1 +1,118 @@
-/*Schrijf hier jouw css voor jouw formulier*/
+body{
+    background:url("assets/background1.jpg");
+
+}
+
+span {
+
+    max-width: 500px;
+    margin: auto;
+    font-family:'Rajdhani', sans-serif;
+    font-weight: bold;
+}
+
+.font-link{
+    font-family:'Rajdhani', sans-serif;;
+}
+
+div{
+    display: flex;
+    border: #D7F6FE solid 3px;
+    padding-block: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-bottom: 50px;
+    margin-top: -25px;
+}
+
+div1 {
+
+    display: flex;
+    border: #D7F6FE solid 3px;
+    padding-block: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-bottom: 50px;
+
+
+}
+
+#naam-box {
+    border:#D7F6FE 1px solid;
+
+}
+
+
+form {
+    border: #D7F6FE;
+    display: inline-grid;
+    font-size: 30px;
+    padding: 50px 50px 50px 50px;
+
+}
+section {
+    border: #D7F6FE 3px solid;
+    display: inline-grid;
+
+    font-size: 30px;
+    padding: 75px 50px 75px 50px;
+    margin-top: -25px;
+
+}
+
+#box-news {
+    border: #D7F6FE 3px solid;
+}
+
+nav {
+    display: inline-block;
+}
+
+#text-box {
+    display: inline-block;
+    border: solid 2px #D7F6FE;
+    height: 100px;
+    width: 300px;
+
+}
+
+button {
+    border:#D7F6FE 1px solid;
+    display: inline;
+    justify-content: center;
+    padding: 20px 20px 20px 20px;
+    letter-spacing: 2px;
+    transition: all .25s;
+    font-size: 20px;
+    font-family: 'Rajdhani', sans-serif;
+    cursor:url("assets/baseline_check.png"), pointer;
+
+
+}
+button:hover{
+
+    letter-spacing: 15px;
+}
+
+
+footer {
+
+    display: inline-grid;
+    padding: 50px 20px 20px 50px;
+    font-size: 20px;
+}
+
+#submit-all{
+    text-align: center;
+    font-weight: bolder;
+    color:black;
+}
+
+h1{
+    font-size: 30px;
+}
+
+ h2{
+     display: flex;
+     font-size: 50px;
+ }
